@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--Linguagem-->
+<html lang="pt-br">
+    <head>
+        <!--Escrita-->
+        <meta charset="UTF-8">
+        <!--Tela responsiva-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Meu portifolio tech</title>
+
+        <!--Css controler-->        
+        <link rel="stylesheet" href="/css_controler/reset_controler.css">
+        <link rel="stylesheet" href="/css_controler/style_controler.css">
+
+        <!--Fontes controler-->
+        <!--Fonte(1)=Padão html-->
+
+        <!--Fonte(2)-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap">
+
+        <!--Fonte(3, 4, 5 e 6)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Bungee+Spice&family=Mogra&family=Pacifico&family=Sixtyfour&display=swap">
+
+
+        <!--Dependências css-->
+        <!--Carrossel-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+        <!--Cabeçalho-->
+        <link rel="stylesheet" href="/css_controler/home_css/cabecalho_home.css">
+
+        <!--Descrição-->
+        <link rel="stylesheet" href="/css_controler/home_css/descricao_home.css">
+
+        <!--Projetos-->
+        <link rel="stylesheet" href="/css_controler/home_css/projetos_home.css">
+
+        <!--Rodapé-->
+        <link rel="stylesheet" href="/css_controler/home_css/rodape_home.css">
+
+    </head>
+
+    <body>
+        <header class="cabecalho_home">
+            <div class="container__cabecalho">
+                <div class="container__titulo-cabecalho">
+                    <h1>Meu portifólio tech</h1>
+                </div>
+                <nav class="container__botao-cabecalho">
+                    <a href="/html_controler/projetos.html" class="botao-cabecalho">Projetos</a>
+                    <a href="/html_controler/creditos.html" class="botao-cabecalho">Créditos</a>
+                </nav>
+            </div>
+
+        </header>
+
+        <section class="descricao_home">
+            <main>
+                <h1 id="titulo_descricao">Rodrigo Castanon Fernandes</h1>
+                <div class="container__descricao">
+                    <nav class="container__itens-descricao">
+                        <div>
+                            <img src="/img_controler/2- foto_pessoal.jpg" id="foto_pessoal" alt="Foto do autor">
+                        </div>
+                        <a href="https://cursos.alura.com.br/vitrinedev/RodrigoCastanonFernandes" target="_blank" rel="noopener noreferrer" id="botao_vitrine" class="botao-descricao">VitrineDev</a>
+                    </nav>
+                    <div class="container__descricao_texto">
+                        <div id="texto_descricao">
+                            <p>Casado desde 2008, boa comunicação, fluência digital, organizado, extrovertido, sincero, boa leitura, divirto-me brincando com meus filhos, Fernando e Raquel, desde bola a bonecas e não poderia faltar games e apps é claro.</p>
+                            <p>Respeito a diversidade, sou cristão evangélico, amo animais e tecnologias, habilitado com categoria A/B, adapto-me com novos desafios, me desenvolvo bem sob pressão e estou em constante aprendizado, procuro aperfeiçoar minhas hard e soft skills.</p>
+                            <p>Fiz este pequeno site como projeto de portifólio, espero que gostem pois foi feito com carrinho e dedicação, além de muitas aulas de programação na Alura, a qual eu tenho a maior admiração, deixei um link nos créditos para você mergulhar neste universo maravilhoso da tecnologia.</p>
+                            <p>Não deixe de visitar minha vitrine da plataforma Alura, onde visualizará todos os meus cursos e formações já concluídos, basta clicar no botão VitrineDev.</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <section class="projetos_home">
+            <div class="carrossel_projetos">
+                <nav>
+                    <h2 id="botao-titulo-projeto"><a href="/html_controler/projetos.html">Projetos</a></h2>
+                </nav>
+                <div class="container__carrossel">
+                    <div class="swiper">
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="/img_controler/amigo_secreto.jpg" alt="Capa do projeto amigo secreto"></div>
+                            <div class="swiper-slide"><img src="/img_controler/carrinho_de_compras.jpg" alt="Capa do projeto carrinho de compras"></div>
+                            <div class="swiper-slide"><img src="/img_controler/compra_de-ingresso.jpg" alt="Capa do projeto compra de ingresso"></div>
+                            <div class="swiper-slide"><img src="/img_controler/jogo_do_numero_secreto.jpg" alt="Capa do projeto jogo do numero secreto"></div>
+                            <div class="swiper-slide"><img src="/img_controler/sorteador_de_numeros.jpg" alt="Capa do projeto sorteador de numeros"></div>
+                        </div>
+    
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="rodape_home">
+            <div class="container__rodape">
+                <h2 id="titulo_rodape">Contatos:</h2>
+                <div class="contatos_rodape">
+                    <p id="telefone">(11) 9 7384-8167</p><br>
+                    <p id="email"><a href="mailto:rcastanon29@gmail.com" target="_blank" rel="noopener noreferrer">rcastanon29@gmail.com</a></p><br>
+                    <p id="linkedIn"><a href="https://www.linkedin.com/in/RodrigoCastanonFernandes" target="_blank" rel="noopener noreferrer">LinkedIn.com</a></p><br>
+                    <p id="gitHub"><a href="https://github.com/RodrigoCastanonFernandes" target="_blank" rel="noopener noreferrer">GitHub.com</a></p>
+                </div>
+                <div class="contatos_rodape">
+                    <h3 id="botao-baixar_curriculo"><a href="arquivos_controler/Curriculo_RodrigoCastanonFernandes.pdf" target="_blank" rel="noopener noreferrer">Baixar Curriculo</a></h3>
+                </div>
+            </div>
+            <div id="copyright">
+                <h4>RCastanon</h4>
+                <p>© 2024 Todos os direitos reservados. Rodrigo Castanon Fernandes, análise e desenvolvimento de sistemas.</p>
+            </div>
+        </footer>
+
+        <!--Dependências js-->
+        <!--Carrossel-->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="/js_controler/index.js"></script>
+
+    </body>
+</html>

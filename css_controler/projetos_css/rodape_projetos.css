@@ -1,0 +1,243 @@
+/*Conteudo rodape projetos*/
+/*Configuração: mídia minima 224px e maxíma 767px.*/
+@media screen and (min-width: 224px) and (max-width: 767px) {
+    .container__rodape {
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+        padding: 2em;
+    }
+    
+    #titulo_rodape {
+        font-family: var(--fonte_5);
+        font-size: 5vw;
+    }
+    
+    .contatos_rodape {
+        display: grid;
+      
+    }
+    
+    .contatos_rodape {
+        font-size: 3vw;
+        padding-left: 1em;
+        text-align: center;
+    }
+
+    #email a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #linkedIn a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #gitHub a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #botao-baixar_curriculo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #botao-baixar_curriculo a {
+        background-color: rgb(0, 155, 255);
+        font-family: var(--fonte_3);
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 4vw;
+        border-radius: 2vw;
+        border: 0.2vw black solid;
+        padding: 0.3em;
+    }
+    #botao-baixar_curriculo a:hover {
+        background-color: chartreuse;
+    }
+
+    #copyright{
+        background-color: black;
+        display: grid;
+        font-family: var(--fonte_2);
+        font-size: 3vw;
+        color: whitesmoke;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+    }
+    #copyright h4 {
+        font-family: var(--fonte_3);
+        font-size: 4vw;
+        margin-bottom: 0.5em;
+    }
+}
+
+/*Configuração: mídia minima 768px e maxíma 1023px.*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__rodape {
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+        padding: 2em;
+    }
+    
+    #titulo_rodape {
+        font-family: var(--fonte_5);
+        font-size: 3vw;
+    }
+    
+    .contatos_rodape {
+        display: grid;
+        border-left: 0.2vw whitesmoke solid;
+    }
+    
+    .contatos_rodape {
+        font-size: 1vw;
+        padding-left: 1em;
+    }
+
+    #email a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #linkedIn a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #gitHub a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #botao-baixar_curriculo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #botao-baixar_curriculo a {
+        background-color: rgb(0, 155, 255);
+        font-family: var(--fonte_3);
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 2vw;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        padding: 0.7em;
+    }
+    #botao-baixar_curriculo a:hover {
+        background-color: chartreuse;
+    }
+
+    #copyright{
+        background-color: black;
+        display: grid;
+        font-family: var(--fonte_2);
+        font-size: 1vw;
+        color: whitesmoke;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+    }
+    #copyright h4 {
+        font-family: var(--fonte_3);
+        font-size: 2vw;
+        margin-bottom: 0.5em;
+    }
+
+}
+
+/*Configuração: mídia minima 1024px*/
+@media screen and (min-width: 1024px) {
+    .container__rodape {
+        background-color: black;
+        opacity: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: whitesmoke;
+        padding: 4em;
+    }
+    
+    #titulo_rodape {
+        font-family: var(--fonte_5);
+        font-size: 3vw;
+    }
+    
+    .contatos_rodape {
+        display: grid;
+        border-left: 0.2vw whitesmoke solid;
+    }
+    
+    .contatos_rodape {
+        font-size: 1vw;
+        padding-left: 1em;
+    }
+
+    #email a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #linkedIn a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #gitHub a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    #botao-baixar_curriculo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #botao-baixar_curriculo a {
+        background-color: rgb(0, 155, 255);
+        font-family: var(--fonte_3);
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 2vw;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        padding: 0.7em;
+    }
+    #botao-baixar_curriculo a:hover {
+        background-color: chartreuse;
+    }
+
+    #copyright{
+        background-color: black;
+        display: grid;
+        font-family: var(--fonte_2);
+        font-size: 1vw;
+        color: whitesmoke;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+    }
+    #copyright h4 {
+        font-family: var(--fonte_3);
+        font-size: 2vw;
+        margin-bottom: 0.5em;
+    }
+
+}

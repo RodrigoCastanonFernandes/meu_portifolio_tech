@@ -1,0 +1,322 @@
+/*Conteudo conteudo creditos*/
+/*Configuração: mídia minima 224px e maxíma 767px.*/
+@media screen and (min-width: 224px) and (max-width: 767px) {
+    .conteudo_creditos-1 {
+        background-image: url(/img_controler/alura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        margin: 1vw 1.5vw;
+        padding: 12vw 0;
+    }
+
+    .conteudo_creditos-2 {
+        background-image: url(/img_controler/instutores_alura.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        justify-content: center;
+        margin: 1vw 1.5vw;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .container__depoimento {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 3vw 1.5vw;
+    }
+
+    .container__titulo-depoimento {
+        font-family: var(--fonte_2);
+        font-size: 4vw;
+        font-weight: 600;
+        color: aliceblue;
+        text-align: start;
+        margin: 1vw;
+    }
+    
+    .container__texto-depoimento {
+        color: whitesmoke;
+        text-align: start;
+        align-content: center;
+        padding: 4vw 1vw;
+
+    }
+    .container__texto-depoimento p {
+        white-space-collapse: preserve-breaks;
+        font-family: var(--fonte_2);
+        font-size: 2vw;
+        margin-bottom: 1vw;
+
+    }
+
+    .conteudo_creditos-3 {
+        background-image: url(/img_controler/fundo_credito-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+        display: grid;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        margin: 1vw 1.5vw;
+    }
+
+    .container__logo {
+        display: grid;
+        justify-items: start;
+        align-items: center;
+        margin-left: 10vw;
+    }
+
+    .container__logo img {
+        width: 20vw;
+        padding: 1vw;
+        margin-top: 1vw;
+
+    }
+
+    .botao-descricao {
+        padding: 3vw 0;
+        margin-bottom: 1vw;
+    }
+
+    #botao-alura{
+        background-color: rgb(0, 155, 255);
+        border-radius: 5vw;
+        border: 0.2vw black solid;
+        text-align: center;
+        font-family: var(--fonte_3);
+        color: black;
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 1vw 3vw;
+    }
+    #botao-alura:active {
+        background-color: chartreuse;
+    }
+
+    .conteudo_creditos-4 {
+        padding: 5vw;
+        margin: 1vw 1.5vw;
+    }
+
+}
+
+/*Configuração: mídia minima 768px e maxíma 1023px.*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo_creditos-1 {
+        background-image: url(/img_controler/alura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        margin: 1vw 1.5vw;
+        padding: 12vw 0;
+    }
+
+    .conteudo_creditos-2 {
+        background-image: url(/img_controler/instutores_alura.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        justify-content: center;
+        margin: 1vw 1.5vw;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .container__depoimento {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 5vw 1.5vw;
+    }
+
+    .container__titulo-depoimento {
+        font-family: var(--fonte_2);
+        font-size: 4vw;
+        font-weight: 600;
+        color: aliceblue;
+        text-align: start;
+        margin: 1vw;
+    }
+    
+    .container__texto-depoimento {
+        color: whitesmoke;
+        text-align: start;
+        align-content: center;
+        padding: 4vw 1vw;
+
+    }
+    .container__texto-depoimento p {
+        white-space-collapse: preserve-breaks;
+        font-family: var(--fonte_2);
+        font-size: 2vw;
+        margin-bottom: 1vw;
+
+    }
+
+    .conteudo_creditos-3 {
+        background-image: url(/img_controler/fundo_credito-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+        display: grid;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        margin: 1vw 1.5vw;
+    }
+
+    .container__logo {
+        display: grid;
+        justify-items: start;
+        align-items: center;
+        margin-left: 10vw;
+    }
+
+    .container__logo img {
+        width: 20vw;
+        padding: 1vw;
+        margin-top: 1vw;
+
+    }
+
+    .botao-descricao {
+        padding: 3vw 0;
+        margin-bottom: 1vw;
+    }
+
+    #botao-alura{
+        background-color: rgb(0, 155, 255);
+        border-radius: 5vw;
+        border: 0.2vw black solid;
+        text-align: center;
+        font-family: var(--fonte_3);
+        color: black;
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 1vw 3vw;
+    }
+    #botao-alura:active {
+        background-color: chartreuse;
+    }
+
+    .conteudo_creditos-4 {
+        display: none;
+    }
+
+}
+
+/*Configuração: mídia minima 1024px.*/
+@media screen and (min-width: 1024px) {
+    .conteudo_creditos-1 {
+        background-image: url(/img_controler/alura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        margin: 1vw 1.5vw;
+        padding: 12vw 0;
+    }
+
+    .conteudo_creditos-2 {
+        background-image: url(/img_controler/instutores_alura.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        justify-content: center;
+        margin: 1vw 1.5vw;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .container__depoimento {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 5vw 1.5vw;
+    }
+
+    .container__titulo-depoimento {
+        font-family: var(--fonte_2);
+        font-size: 4vw;
+        font-weight: 600;
+        color: aliceblue;
+        text-align: start;
+        margin: 1vw;
+    }
+    
+    .container__texto-depoimento {
+        color: whitesmoke;
+        text-align: start;
+        align-content: center;
+        padding: 4vw 1vw;
+
+    }
+    .container__texto-depoimento p {
+        white-space-collapse: preserve-breaks;
+        font-family: var(--fonte_2);
+        font-size: 2vw;
+        margin-bottom: 1vw;
+
+    }
+
+    .conteudo_creditos-3 {
+        background-image: url(/img_controler/fundo_credito-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 90%;
+        display: grid;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        margin: 1vw 1.5vw;
+    }
+
+    .container__logo {
+        display: grid;
+        justify-items: start;
+        align-items: center;
+        margin-left: 10vw;
+    }
+
+    .container__logo img {
+        width: 20vw;
+        padding: 1vw;
+        margin-top: 1vw;
+
+    }
+
+    .botao-descricao {
+        padding: 3vw 0;
+        margin-bottom: 1vw;
+    }
+
+    #botao-alura{
+        background-color: rgb(0, 155, 255);
+        border-radius: 5vw;
+        border: 0.2vw black solid;
+        text-align: center;
+        font-family: var(--fonte_3);
+        color: black;
+        font-size: 3vw;
+        text-decoration: none;
+        padding: 1vw 3vw;
+    }
+    #botao-alura:hover {
+        background-color: chartreuse;
+    }
+
+    .conteudo_creditos-4 {
+        display: none;
+    }
+
+}

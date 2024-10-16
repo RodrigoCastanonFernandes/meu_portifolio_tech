@@ -1,0 +1,20 @@
+/*Style base*/
+:root {
+    --cor_de_fundo: whitesmoke;
+    --fonte_1: "";
+    --fonte_2: "Poppins";
+    --fonte_3: "Anton", sans-serif;
+    --fonte_4: "Bungee Spice", sans-serif;
+    --fonte_5: "Black Ops One", system-ui;
+    --fonte_6: "Mogra", system-ui;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img_controler/matrix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--fonte_1);
+}

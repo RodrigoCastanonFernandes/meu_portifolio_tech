@@ -1,0 +1,304 @@
+/*Conteudo conteudo projetos*/
+/*Configuração: mídia minima 224px e maxíma 767px.*/
+@media screen and (min-width: 224px) and (max-width: 767px) {
+    .container__projetos {
+        background-color:rgb(50, 50, 50);
+        border: 0.2vw black solid;
+        border-radius: 1vw;
+        margin: 1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 1vw;
+    }
+    
+    #titulo-imagem {
+        font-family: var(--fonte_3);
+        font-size: 8vw;
+        color: rgb(0, 155, 255);
+        text-align: center;
+        padding: 0.2em;
+    }
+    
+    .imagem_projeto img {
+        width: 99%;
+        border: 0.2vw black solid;
+        border-radius: 2vw;
+    }
+    
+    .container__tutorial {
+        display: grid;
+    }
+    
+    .texto_projeto {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        border-radius: 2vw;
+        border: 0.2vw black solid;
+        text-align: center;
+        margin-bottom: 0.8vw;
+    }
+    
+    #titulo-tutorial {
+        font-family: var(--fonte_3);
+        font-size: 4vw;
+        padding: 0.8em;
+    }
+
+    #texto-tutorial {
+        text-align: start;
+        white-space-collapse: preserve-breaks;
+        font-family: var(--fonte_2);
+        font-size: 3vw;
+        padding: 0 1em;
+    }
+    
+    .botao-projeto {
+        background-color:rgb(0, 155, 255);
+        font-family: var(--fonte_3);
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 6vw;
+        inline-size: -webkit-fill-available;
+        border-radius: 6vw;
+        border: 0.2vw black solid;
+        padding: 0.4em;
+    }
+    .botao-projeto:active {
+        background-color: chartreuse;
+    }
+
+    .carrossel_projetos {
+        background-color: rgb(90, 90, 90);
+        display: block;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        padding: 0.5em; 
+        margin: 0 1.3vw;
+    }
+    
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5vw;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: rgb(0, 155, 255);
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 0.5em 0;
+    }
+
+}
+
+/*Configuração: mídia minima 768px e maxíma 1023px.*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__projetos {
+        background-color:rgb(50, 50, 50);
+        border: 0.2vw black solid;
+        border-radius: 1vw;
+        margin: 1vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 2em;
+    }
+    
+    #titulo-imagem {
+        font-family: var(--fonte_3);
+        font-size: 4vw;
+        color: rgb(0, 155, 255);
+        text-align: center;
+        padding: 0.2em;
+    }
+    
+    .imagem_projeto img {
+        width: 100%;
+        height: 100%;
+        border: 0.2vw black solid;
+        border-radius: 1vw;
+    }
+    
+    .container__tutorial {
+        display: grid;
+        margin-left: 1em;
+    }
+    
+    .texto_projeto {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+    
+    #titulo-tutorial {
+        font-family: var(--fonte_3);
+        font-size: 1.5vw;
+        padding: 0.5em;
+    }
+
+    #texto-tutorial {
+        text-align: start;
+        white-space-collapse: preserve-breaks;
+        font-family: var(--fonte_2);
+        font-size: 1vw;
+        padding: 0 1em;
+    }
+    
+    .botao-projeto {
+        background-color:rgb(0, 155, 255);;
+        font-family: var(--fonte_3);
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 2vw;
+        inline-size: -webkit-fill-available;
+        border-radius: 5vw;
+        border: 0.2vw black solid;
+        padding: 0.5em;
+    }
+    .botao-projeto:active {
+        background-color: chartreuse;
+    }
+
+    .carrossel_projetos {
+        background-color: rgb(90, 90, 90);
+        display: block;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        padding: 0.5em; 
+        margin: 0 1.3vw;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5vw;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: rgb(0, 155, 255);
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em;
+    }
+    
+}
+
+/*Configuração: mídia minima 1024px.*/
+@media screen and (min-width: 1024px) {
+    .container__projetos {
+        background-image: url(/img_controler/fundo_celular.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0.2vw black solid;
+        border-radius: 1vw;
+        margin: 1vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 2em;
+    }
+    
+    #titulo-imagem {
+        font-family: var(--fonte_3);
+        font-size: 4vw;
+        text-align: center;
+        padding: 0.2em;
+    }
+    
+    .imagem_projeto img {
+        width: 100%;
+        height: 100%;
+        border: 0.2vw black solid;
+        border-radius: 1vw;
+    }
+    
+    .container__tutorial {
+        display: grid;
+        margin-left: 1em;
+    }
+    
+    .texto_projeto {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+    
+    #titulo-tutorial {
+        font-family: var(--fonte_3);
+        font-size: 1.5vw;
+        padding: 0.5em;
+    }
+
+    #texto-tutorial {
+        text-align: start;
+        white-space-collapse: preserve-breaks;
+        font-family: var(--fonte_2);
+        font-size: 1vw;
+        padding: 0 1em;
+    }
+    
+    .botao-projeto {
+        background-color: rgb(0, 155, 255);
+        font-family: var(--fonte_3);
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 2vw;
+        inline-size: -webkit-fill-available;
+        border-radius: 5vw;
+        border: 0.2vw black solid;
+        padding: 0.5em;
+    }
+    .botao-projeto:hover{
+        background-color: chartreuse;
+    }
+
+    .carrossel_projetos {
+        background-color: rgb(90, 90, 90);
+        display: block;
+        border-radius: 1vw;
+        border: 0.2vw black solid;
+        padding: 0.5em; 
+        margin: 0 1.3vw;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5vw;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: rgb(0, 155, 255);
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em;
+    }
+
+}
+
